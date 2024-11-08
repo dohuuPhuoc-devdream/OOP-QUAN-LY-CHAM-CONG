@@ -1,0 +1,92 @@
+[
+  {
+    "Department": "C\u00F4ng ngh\u1EC7 th\u00F4ng tin",
+    "Position": "L\u1EADp tr\u00ECnh vi\u00EAn",
+    "BasicSalary": 10000000,
+    "Id": "NV001",
+    "FullName": "Nguy\u1EC5n V\u0103n An",
+    "DateOfBirth": "15/01/1990",
+    "Gender": "Nam"
+  },
+  {
+    "Department": "Nh\u00E2n s\u1EF1",
+    "Position": "Tr\u01B0\u1EDFng ph\u00F2ng nh\u00E2n s\u1EF1",
+    "BasicSalary": 30000000,
+    "Id": "NV002",
+    "FullName": "Tr\u1EA7n Th\u1ECB B\u00EDch",
+    "DateOfBirth": "10/03/1985",
+    "Gender": "N\u1EEF"
+  },
+  {
+    "Department": "K\u1EBF to\u00E1n",
+    "Position": "K\u1EBF to\u00E1n vi\u00EAn",
+    "BasicSalary": 8000000,
+    "Id": "NV003",
+    "FullName": "L\u00EA V\u0103n C\u01B0\u1EDDng",
+    "DateOfBirth": "20/05/1992",
+    "Gender": "Nam"
+  },
+  {
+    "Department": "C\u00F4ng ngh\u1EC7 th\u00F4ng tin",
+    "Position": "Ki\u1EC3m th\u1EED vi\u00EAn",
+    "BasicSalary": 7500000,
+    "Id": "NV004",
+    "FullName": "Ph\u1EA1m Th\u1ECB Dung",
+    "DateOfBirth": "25/07/1993",
+    "Gender": "N\u1EEF"
+  },
+  {
+    "Department": "Kinh doanh",
+    "Position": "Tr\u01B0\u1EDFng ph\u00F2ng kinh doanh",
+    "BasicSalary": 35000000,
+    "Id": "NV005",
+    "FullName": "Ho\u00E0ng V\u0103n \u0110\u1EE9c",
+    "DateOfBirth": "12/09/1988",
+    "Gender": "Nam"
+  },
+  {
+    "Department": "Marketing",
+    "Position": "Chuy\u00EAn vi\u00EAn Marketing",
+    "BasicSalary": 13000000,
+    "Id": "NV006",
+    "FullName": "\u0110\u1EB7ng Th\u1ECB Ph\u01B0\u01A1ng",
+    "DateOfBirth": "30/11/1991",
+    "Gender": "N\u1EEF"
+  },
+  {
+    "Department": "C\u00F4ng ngh\u1EC7 th\u00F4ng tin",
+    "Position": "Qu\u1EA3n tr\u1ECB h\u1EC7 th\u1ED1ng",
+    "BasicSalary": 45000000,
+    "Id": "NV007",
+    "FullName": "V\u0169 V\u0103n Ho\u00E0ng",
+    "DateOfBirth": "18/12/1987",
+    "Gender": "Nam"
+  },
+  {
+    "Department": "Nh\u00E2n s\u1EF1",
+    "Position": "Chuy\u00EAn vi\u00EAn tuy\u1EC3n d\u1EE5ng",
+    "BasicSalary": 11000000,
+    "Id": "NV008",
+    "FullName": "Ph\u1EA1m Th\u1ECB H\u01B0\u01A1ng",
+    "DateOfBirth": "22/04/1995",
+    "Gender": "N\u1EEF"
+  },
+  {
+    "Department": "T\u00E0i ch\u00EDnh",
+    "Position": "Chuy\u00EAn vi\u00EAn t\u00E0i ch\u00EDnh",
+    "BasicSalary": 11500000,
+    "Id": "NV009",
+    "FullName": "B\u00F9i V\u0103n Hi\u1EBFu",
+    "DateOfBirth": "05/08/1989",
+    "Gender": "Nam"
+  },
+  {
+    "Department": "Kinh doanh",
+    "Position": "Nh\u00E2n vi\u00EAn kinh doanh",
+    "BasicSalary": 9000000,
+    "Id": "NV010",
+    "FullName": "Nguy\u1EC5n Th\u1ECB Lan",
+    "DateOfBirth": "14/02/1994",
+    "Gender": "N\u1EEF"
+  }
+]
