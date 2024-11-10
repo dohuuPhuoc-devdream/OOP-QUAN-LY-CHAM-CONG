@@ -4,11 +4,33 @@ namespace WinFormsApp6
 {
     public abstract class Person
     {
-        public string Id { get; set; }
-        public string FullName { get; set; }
-        public string DateOfBirth { get; set; }
-        public string Gender { get; set; }
+         private string ID { get; set; }
+         private string FullName { get; set; }
+         private string DateOfBirth { get; set; }
+         private string Gender { get; set; }
+         public string Id
+    {
+      get { return ID; }
+      set { ID = value; }
+    }
 
+     public string Fullname
+    {
+      get { return FullName; }
+      set { FullName = value; }
+    }
+
+      public string DateOfbirth
+     {
+       get { return DateOfBirth; }
+       set { DateOfBirth = value; }
+     }
+
+       public string GenDer
+     {
+        get { return Gender; }
+         set { Gender = value; }
+     }
         protected Person(string id, string fullName, string dateOfBirth, string gender)
         {
             Id = id;
