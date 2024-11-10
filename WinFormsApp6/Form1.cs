@@ -42,11 +42,11 @@ namespace WinFormsApp6
                     DataGridViewRow row = new DataGridViewRow();
                     row.CreateCells(dataGridView1);
                     row.Cells[0].Value = employee.Id;
-                    row.Cells[1].Value = employee.FullName;
+                    row.Cells[1].Value = employee.Fullname;
                     row.Cells[2].Value = employee.Department;
                     row.Cells[3].Value = employee.Position;
-                    row.Cells[4].Value = employee.Gender;
-                    row.Cells[5].Value = employee.DateOfBirth;
+                    row.Cells[4].Value = employee.GenDer;
+                    row.Cells[5].Value = employee.DateOfbirth;
                     row.Cells[6].Value = shiftRecord.StartTime.HasValue ? shiftRecord.StartTime.Value.ToString() : string.Empty;
                     row.Cells[7].Value = shiftRecord.EndTime.HasValue ? shiftRecord.EndTime.Value.ToString() : string.Empty;
                     dataGridView1.Rows.Add(row);
@@ -95,18 +95,18 @@ namespace WinFormsApp6
                 if (employee != null)
                 {
                     // Nếu tìm thấy nhân viên, hiển thị thông tin
-                    textBoxFullName.Text = employee.FullName;
+                    textBoxFullName.Text = employee.Fullname;
                     textBoxDepartment.Text = employee.Department;
                     textBoxPosition.Text = employee.Position;
-                    if (employee.Gender == "Nam")
+                    if (employee.GenDer == "Nam")
                     {
                         radioButtonMale.Checked = true;
                     }
-                    else if (employee.Gender == "Nữ")
+                    else if (employee.GenDer == "Nữ")
                     {
                         radioButtonFemale.Checked = true;
                     }
-                    textBoxDateOfBirth.Text = employee.DateOfBirth;
+                    textBoxDateOfBirth.Text = employee.DateOfbirth;
                 }
                 else
                 {
